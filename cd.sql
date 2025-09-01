@@ -66,3 +66,15 @@ responsavel varchar(255),
 id int(11),
 perfil_id int(11)
 );
+create table catalogo(
+item varchar(255),
+descricao varchar(255),
+id int(11)
+);
+
+create table consumivel(
+venda varchar(255),
+estoque varchar(255),
+id int(11),
+estoque_id int(11)
+);
