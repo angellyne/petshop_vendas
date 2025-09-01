@@ -83,3 +83,13 @@ create table estetica(
     agenda varchar(255),
     id int(11) primary key auto_increment
 );
+create table endereco(
+rua varchar(255),
+bairro varchar(255),
+numero varchar(255),
+cep varchar(255),
+complemento varchar(255),
+id int(11) primary key auto_increment,
+loja_id int(11)
+);
+
